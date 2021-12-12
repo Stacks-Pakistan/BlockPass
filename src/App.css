@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'opensauce-bold';
+  src: url('./assets/fonts/OpenSauceSans-Bold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensauce-med';
+  src: url('./assets/fonts/OpenSauceSans-Medium.ttf');
+  font-style: normal;
+}
+
+html body{
+  font-family: 'opensauce-med';
+}
+
+.table{
+  background-color: rgb(238, 238, 238);
+}
+
+.tableLimit {
+  overflow: auto;
+  border-radius: 25px;
+}
